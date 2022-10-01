@@ -7,77 +7,88 @@
     <meta name="keywords" content="html, css, course">
     <meta name="description" content="Это базовый курс по HTML">
     <title>Резюме Виктор</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-     <img src="foto.jpg" alt="Фото" width="200">
-    <h1>Виктор Рогов</h1>
-    <p>Учусь программированию с 0, по курсу <strong>HTML&CSS</strong>
-        <p> Также работаю на заводе,занимаюсь спортом,целеустремленный и общительный.</p>
-<h2><p><strong>Список социальных сетей:</strong></p></h2>
-<a href="https://vk.com/ralem" target="_blank"> Вконтакте</a>
-|
-<a href="https://t.me/ralem09" target="_blank"> Telegram </a>
 
-<h2>Мои хобби</h2>
-<ol>
-    <li>Путешествия</li>
-    <li>Спорт</li>
-    <li>Бокс</li>
-    <li>Кино</li>
-    <li>Работа</li>
-</ol>
-<h2>Опыт работы</h2>
+    <div class="container">
+        <div class="info">
+        <img src="foto.jpg" alt="Фото" 
+        class="avatar">
+    <div class="text1">
+        <h1>Рогов Виктор Юрьевич</h1>
+        <p><em>Учусь программированию с 0. Это резюме созданно во время учебы по курсу <strong>HTML&CSS</strong>
+            <p> Также работаю на заводе,занимаюсь спортом,целеустремленный и общительный.</em></p>
+    <h3>Список социальных сетей:</h3>
+    |
+    <a href="https://vk.com/ralem" target="_blank" > Вконтакте</a>
+    |
+    <a href="https://t.me/ralem09" target="_blank" > Telegram </a>
+    |
+    <a href="https://wa.me/79068308341" target="_blank">Whatsapp</a>
+    |
+    </div>
+    </div>
 
-    <table width="500">
-<thead>
-    <tr>
-<th>Название</th>
-<th>Доолжность</th>
-<th>Год</th>
-    </tr>
+    <div class="card bg-green">
+        <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Спорт</li>
+                <li>Путешествия</li>
+                <li>Работа и повышение квалификации</li>
+                <li>Езда на машине</li>
+                <Li>Бокс,настольный теннис</Li>
+            </ol>
+    </div>
 
-</thead>
-<tbody>
-    <tr>
-<td>Полимер</td>
-<td>Разноробочий</td>
-<td>2010 - 2010</td>
-</tr>
+    <div class="card bg-red">
+        <h2>Опыт работы</h2>
 
-    <tr>
-        <td>СервисНефтеГаз</td>
-        <td>СисАдмин</td>
-        <td>2011-2011</td>
+            <table class="table">
+
+    <tbody>
+        <tr >
+            <td>Полимер</td>
+            <td>Разноробочий</td>
+            <td>2010 - 2010</td>
+        </tr>
+
+        <tr>
+            <td>СервисНефтеГаз</td>
+            <td>СисАдмин</td>
+            <td>2011-2011</td>
         </tr>
         <tr>
             <td>Газпром</td>
             <td>Приборист</td>
             <td>2012 - сейчас</td>
-            </tr>
-</tbody>
-</table>
-<br>
-<h1>Связаться со мной</h1>
-<form>
-    <div>
-        <label for="text1">Ваше имя* </label>
-        <input type="text" id="text1" required placeholder="Введите ваше имя">
+        </tr>
+    </tbody>
+
+    </table>
+    </div> 
+    <form action="/vscode/resume/" class="form">
+            <h1 >Связаться со мной</h1>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="text1">Ваше имя* </label>
+                <input type="text" id="text1" required placeholder="Введите ваше имя">
+            </div>
+            <div class="form-group">
+                <label for="email">Ваш email </label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="message"> Ваше сообщение</label>
+            <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
     </div>
-    <div>
-        <label for="email">Ваш email </label>
-        <input type="email" id="email" placeholder="Введите email">
-    </div>
-    <div>
-    <label for="message"> Ваше сообщение</label>
-    <br>
-   <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            <button type="submit" class="btn">Отправить сообщение</button>
+    </form>
+
 </div>
-   <button type="submit">Отправить сообщение</button>
-
-
-
-</form>
  
-
 </body>
 </html>
