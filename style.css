@@ -39,7 +39,7 @@ body {
     font-style: italic;
     font-weight: bold;
     font-size: 18px;
-    color: #1d3d7c;
+    color: #093ea7;
     margin: auto;
 }
 
@@ -52,6 +52,7 @@ body {
 @media (max-width: 750px) {
     .info { display:block;
         text-align: center;
+        margin: 0;
 
     }
 
@@ -62,23 +63,33 @@ body {
     margin-bottom: 20px;
 }
 
-.bg-red {
-    background: rgb(250, 165, 155);
+.bg-2 {
+    background: rgb(196, 197, 214);
 }
 
-.bg-green {
-    background: rgb(178, 241, 176);
+.bg-2 h2 {
+    text-shadow: 4px 4px 14px rgba(0, 0, 0, 10)
 }
+
+.bg-1 {
+    background: rgb(200, 211, 224);
+}
+
+.bg-1 h2 {
+    text-shadow: 4px 4px 14px rgba(0, 0, 0, 10)
+}
+
 
 .btn {
     cursor: pointer;
     border-radius: 6px;
     border: rgb(190, 50, 3);
     padding: 5px 10px;
-    border-style: inset;
+    /* border-style: inset;s */
     font-family: inherit;
-    background:rgb(158, 248, 248);
-    color: rgb(25, 57, 235);
+    background: rgb(200, 211, 224);
+    color: rgb(14, 14, 15);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 10);
 }
 
 .btn:hover {
@@ -87,7 +98,6 @@ body {
 a {
     color: black;
     text-decoration: none;
-    border-width: 1px;
    
     
 }
@@ -109,7 +119,7 @@ a:visited {
 }
 
 .list li {
-    color: rgb(40, 28, 206);
+    color: rgb(3, 2, 15);
     margin-bottom: 10px;
 }
 
@@ -121,9 +131,9 @@ a:visited {
     padding-bottom: 10px;
 }
 
-.table td:nth-child(2), td:nth-child(3) {
+/* .table td:nth-child(2), td:nth-child(3) {
     color: rgb(111, 96, 124);
-}
+} */
 
 
 .form h1 {
